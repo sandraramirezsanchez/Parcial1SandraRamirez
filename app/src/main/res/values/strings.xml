@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parcial1SandraRamirez</string>
+    <string name="Valor1">Dame numero 1</string>
+    <string name="Valor2">Dame numero 2</string>
+    <string name="Resultado">RESULTADO</string>
+    <string name="suma">SUMA</string>
+    <string name="resta">RESTAR</string>
+    <string name="multi">MULTIPLICAR</string>
+    <string name="div">DIVIDIR</string>
+
+</resources>

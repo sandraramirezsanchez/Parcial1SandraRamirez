@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/Valor1"
+        android:textSize="20sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/Valor2"
+        android:textSize="20sp"></EditText>
+
+    <TextView
+        android:id="@+id/Texto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Resultado"
+        android:textSize="20sp"></TextView>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="144dp"
+            android:layout_height="62dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/azul"
+            android:text="@string/suma" />
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="143dp"
+            android:layout_height="62dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/azul"
+            android:layout_marginRight="25dp"
+
+            android:text="@string/resta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="114dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="151dp"
+            android:layout_height="62dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/azul"
+            android:text="@string/multi" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="131dp"
+            android:layout_height="62dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/azul"
+            android:text="@string/div" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eve" />
+
+
+</LinearLayout>
